@@ -23,3 +23,12 @@ copy.sh: Batch copy INCAR, KPOINTS and POTCAR files to each task folder (in the 
 
 
 copy-2circulation.sh: Batch copy INCAR, KPOINTS and POTCAR files to each task folder (in the secondary directory).
+
+
+create-folder+files.sh: Batch create folders and generate specified files in each folder. Note that it needs to be used with create-rndstr.sh and create-sqscell.sh.
+
+
+create-rndstr.sh: Create the rndstr.in file.
+
+
+create-sqscell.sh: Create the sqscell.out file.
